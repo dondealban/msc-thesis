@@ -67,6 +67,7 @@
 \usepackage{subcaption} % Replaces subfig and subfigure.
 \usepackage{tabularx}
 \usepackage{theorem}
+\usepackage[toc,page]{appendix}
 \usepackage{usnomencl} % For making a glossary of nomenclature.
 \usepackage{url}
 \urlstyle{rm}
@@ -99,7 +100,7 @@
 	\input{include/symbolslist} % symbolslist.tex
 
 	% Header Pages
-	\input{preliminaries/0_coverpage}
+	\input{preliminaries/coverpage}
 
 	% Setup Contents
 	\pagenumbering{arabic}
@@ -118,15 +119,7 @@
 	% Bibliography
 	\printbibliography
 
-%\addcontentsline{toc}{chapter}{\numberline{}References}
-%\bibliographystyle{unsrt}
-% Style nar gives appreviations for author first names, and also unsorted, so numbers are in order of appearance in the text.
-% unsrt only gives ccorrect ordering
-% abbrv only abbreviates authors first names and journal titles.
-% XXX Solve bib problem - titles not shown. Try IEEETrans style file. Style 'nar' doesn't show titles.
-%\bibliography{../MSc Thesis/references/library} % bibtex (.bib) file location
-
 	% Appendix
-	\include{main/A_appendix}
+	\include{supplementary/appendix}
 
 \end{document}
