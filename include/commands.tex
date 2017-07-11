@@ -1,0 +1,27 @@
+%--------------------------------------------------------------------------
+% Document Variables
+%--------------------------------------------------------------------------
+
+\newcommand{\thesistitle}[0]{\textrm{Evaluation of multi-year ALOS/PALSAR mosaic data for mapping and monitoring of forest cover types in the Philippines}}
+\newcommand{\authorname}[0]{\textrm{Jose Don T De Alban}}
+\newcommand{\thesismonthyear}[0]{\textrm{January 2017}}
+\newcommand{\advisername}[0]{\textrm{Enrico C Paringit, Dr Eng}}
+
+
+%--------------------------------------------------------------------------
+% Figures
+%--------------------------------------------------------------------------
+
+\newcommand{\executeiffilenewer}[3]{%
+\ifnum\pdfstrcmp{\pdffilemoddate{#1}}%
+{\pdffilemoddate{#2}}>0%
+{\immediate\write18{#3}}\fi%
+}
+\newcommand{\includesvg}[1]{%
+\executeiffilenewer{#1.svg}{#1.pdf}%
+{inkscape -z -D --file=#1.svg %
+--export-pdf=#1.pdf --export-dpi=600 --export-latex}%
+\input{#1.pdf_tex}%
+}
+
+\newcommand{\vectornorm}[1]{\left|\left|#1\right|\right|}
