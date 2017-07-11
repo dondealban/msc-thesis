@@ -64,6 +64,7 @@
 \usepackage{pdflscape} % Rotate display of landscape pages in PDFs http://goo.gl/wbg4fy
 \usepackage{printlen} % Print variables. http://goo.gl/3ZdAPV
 \usepackage{setspace}
+%\usepackage[space]{grffile} % Allow spaces in file path names
 \usepackage{subcaption} % Replaces subfig and subfigure.
 \usepackage{tabularx}
 \usepackage{theorem}
@@ -93,7 +94,15 @@
 % Inputs
 \input{include/format} % format.tex
 \include{include/commands} % commands.tex
-\graphicspath{{./images/}} % images directory
+
+% Images Directories
+\graphicspath{{./images/}
+			  {./images/introduction/}
+			  {./images/literature-review/}
+			  {./images/methodology/}
+			  {./images/results/}
+			  {./images/appendix/segmentation/}
+			  {./images/appendix/decision-trees/case1/2007/}} 
 
 \begin{document}
 	
