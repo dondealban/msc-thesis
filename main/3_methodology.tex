@@ -201,7 +201,7 @@ PALSAR mosaic data are comprised of strip (or path) data acquired on different d
 \section{Hierarchical clustering}
 \label{sec: method-clustering}
 
-Agglomerative hierarchical clustering was implemented using the \textit{pvclust} package in R software (Suzuki \& Shimodaira, 2006, 2014) with the tabular databases for each year as inputs. Both the temporal consistency of the multi-year SAR data and the cluster hierarchy of forest types were evaluated using the dendrograms. The \textit{pvclust} package was useful to assess the uncertainty or stability in hierarchical cluster analysis by calculating probability values (Suzuki \& Shimodaira, 2014). An approximately unbiased (AU) p-value $\geq$ 0.95 indicates consistent or stable clustering/grouping and is strongly supported by the data (Suzuki \& Shimodaira, 2014).\\
+Agglomerative hierarchical clustering was implemented using the \textit{pvclust} package in R software (\cite{suzuki_pvclust:_2006}; \cite{suzuki_pvclust:_2014}) with the tabular databases for each year as inputs. Both the temporal consistency of the multi-year SAR data and the cluster hierarchy of forest types were evaluated using the dendrograms. The \textit{pvclust} package was useful to assess the uncertainty or stability in hierarchical cluster analysis by calculating probability values (\cite{suzuki_pvclust:_2014}). An approximately unbiased (AU) p-value $\geq$ 0.95 indicates consistent or stable clustering/grouping and is strongly supported by the data.\\
 \begin{spacing}{1.0}
 \begin{longtable}[h!]{ p{2cm} p{2cm} p{9cm} }
 
