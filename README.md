@@ -22,8 +22,7 @@ De Alban, J.D.T. (2017). *Evaluation of multi-year ALOS/PALSAR mosaic data for m
     school = {University of the Philippines Diliman},
     address = {Quezon City, Philippines},
     language = {English},
-    url = {},
-    note = {arXiv:1407.7502}
+    doi = {},
 }
 ```
 
