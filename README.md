@@ -1,7 +1,7 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.845899.svg)](https://doi.org/10.5281/zenodo.845899)
+
 # MSc Thesis
 Evaluation of multi-year ALOS/PALSAR mosaic data for mapping and monitoring of forest cover types in the Philippines
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.845899.svg)](https://doi.org/10.5281/zenodo.845899)
 
 ## Overview
 This repository contains the `LaTeX` version of my master's thesis submitted as a requirement under the GmE300 thesis course, which I took up for my MSc Geomatics Engineering studies.
