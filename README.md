@@ -26,3 +26,6 @@ De Alban, J.D.T. (2017). *Evaluation of multi-year ALOS/PALSAR mosaic data for m
     note = {arXiv:1407.7502}
 }
 ```
+
+## License
+Creative Commons Attribution 4.0 International [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
